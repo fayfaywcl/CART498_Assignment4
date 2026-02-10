@@ -91,7 +91,7 @@ def index():
                 text_response = client.responses.create(
                     model="gpt-4.1",
                     input=[
-                        {"role": "developer", "content": "You are an expert Jungian dream analyst with deep knowledge of Carl Jung's analytical psychology, archetypes, and the collective unconscious."},
+                        {"role": "developer", "content": "With deep knowledge of Carl Jung's analytical psychology, archetypes, and the collective unconscious."},
                         {"role": "user", "content": jungian_analysis_input}
                     ],
                     temperature=0.9,
