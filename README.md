@@ -1,14 +1,14 @@
-# minimal-flask-app
-Minimal code for Flask app making calls to the OpenAI API
+# Jungian dream analysis machine
 
-
+Setup in terminal 
 ```
 # Create virtual environment
 python3 -m venv ./venv
 
 # Activate your virtual environment
-source venv/bin/activate
-.\venv\Scripts\activate [ for powershell command]
+source venv/bin/activate [For Linux and macOS]
+or
+.\venv\Scripts\activate [for powershell command, For Windows]
 
 # Install the required packages. For example
 pip3 install flask openai python-dotenv
