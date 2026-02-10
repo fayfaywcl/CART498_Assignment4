@@ -112,7 +112,7 @@ def index():
                     for the image. Translate the psychological themes, archetypes, symbols,
                     and emotional atmosphere into visual form.
 
-                    Dream being visualized: {dream_input}
+                    Dream being visualized: {result_text} // Use the analysis text as inspiration for the image content
 
                     Visual guidelines:
                     - Symbolic rather than literal
